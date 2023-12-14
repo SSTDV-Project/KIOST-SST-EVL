@@ -9,12 +9,10 @@ Template project page
 .
 ├── README.md
 ├── LICENSE
-├── src/
+├── code/
 │   └── [Project source code]
-├── docs/
-│   └── [Optional: project pages source code]
-└── examples/
-    └── [Optional: Colab/Jupyter notebooks for demonstrations]
+└── data/
+    └── [Synthetic data]
 ```
 
 ## Project guideline
