@@ -36,7 +36,7 @@ Any Public project is encouraged to include:
 
 ## Dataset
 
-* KAM Weather Data Service 'Open MET Data Portal'
+* KMA Weather Data Service 'Open MET Data Portal'
 * Ocean Observation - Sea Surface Temperature(SST) 
 * https://data.kma.go.kr/data/sea/selectBuoyRltmList.do?pgmNo=52
 
