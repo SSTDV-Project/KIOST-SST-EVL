@@ -1,8 +1,15 @@
 # KIOST-SST-EVL
-===
-[[Preprint](https://sstdv-project.github.io/template-project-page/static/pdfs/sample.pdf)]
-[[Supplementary](https://sstdv-project.github.io/template-project-page/static/pdfs/sample.pdf)]
-[[Project Page](https://sstdv-project.github.io/template-project-page/)]
+Extreme Value Loss for Coastal Sea Surface Temperature Forecasting
+
+## Overview
+This repository provides code and generated results for coastal sea surface temperature (SST) forecasting using deep time-series models with Extreme Value Loss (EVL). The project focuses on improving the prediction of abnormal high and low SST
+events, which are important for marine heatwave monitoring, aquaculture management, and operational ocean forecasting.
+
+The implementation combines two research directions:
+
+* Coastal SST multi-step forecasting using in-situ observation data around the Korean Peninsula
+* Extreme value loss (EVL) for improving prediction performance on rare high/low events
+* LSTM and Transformer models are used as predictors
 
 ## Project directory structure
 ```
@@ -33,28 +40,13 @@ Any Public project is encouraged to include:
 * Examples as Colab/Jupyter notebook
 
 
-
 ## Dataset
-
 * KMA Weather Data Service 'Open MET Data Portal'
 * Ocean Observation - Sea Surface Temperature(SST) 
 * https://data.kma.go.kr/data/sea/selectBuoyRltmList.do?pgmNo=52
 
 
-## Requirements
-
-First, install PyTorch meeting your environment (at least 1.7):
-```bash
-pip install torch torchvision torchaudio --extra-index-url https://download.pytorch.org/whl/cu116
-```
-
-Then, use the following command to install the rest of the libraries:
-```bash
-pip install tqdm ninja h5py kornia matplotlib pandas sklearn scipy seaborn wandb PyYaml click requests pyspng imageio-ffmpeg timm
-```
-
 ## Features
-
 - **Model:** Two models of LSTM and Transformer are applied to extreme value analysis. For the extreme value analysis, three methods of data transformation, Frechet and Gumbel extreme distribution loss (Zhang et al.,2021) are applied to two models.  
 - **Time-series:** 16 time series of sea surface temperature (SST) around the waters of Korea Peninsula are used and the data can be freely access through KAM Weather Data Service 'Open MET Data Portal'. 
 - **Gumbel Generalize Value Loss:** 4 cases of Gumbel distribution function according to the hyper parameter r are applied (r=1.0, 1.1, 1.5, 2.0). 
@@ -62,7 +54,6 @@ pip install tqdm ninja h5py kornia matplotlib pandas sklearn scipy seaborn wandb
 
 
 ## Citation
-
 ```bibtex
 @article{kim2023spatiotemporal,
   title={Spatiotemporal graph neural network for multivariate multi-step ahead time-series forecasting of sea temperature},
