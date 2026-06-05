@@ -1,6 +1,8 @@
 # KIOST-SST-EVL
 Extreme Value Loss for Coastal Sea Surface Temperature Forecasting
 
+![Overview figure](image.png)
+
 ## Overview
 This repository provides code and generated results for coastal sea surface temperature (SST) forecasting using deep time-series models with Extreme Value Loss (EVL). The project focuses on improving the prediction of abnormal high and low SST
 events, which are important for marine heatwave monitoring, aquaculture management, and operational ocean forecasting.
