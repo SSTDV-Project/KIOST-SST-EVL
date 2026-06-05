@@ -43,10 +43,8 @@ Any Public project is encouraged to include:
 
 
 ## Dataset
-* KMA Weather Data Service 'Open MET Data Portal'
-* Ocean Observation - Sea Surface Temperature(SST) 
-* https://data.kma.go.kr/data/sea/selectBuoyRltmList.do?pgmNo=52
-
+* KMA Weather Data Service 'Open MET Data Portal' (https://data.kma.go.kr/data/sea/selectBuoyRltmList.do?pgmNo=52)
+* Ocean Observation - Sea Surface Temperature(SST) (https://cds.climate.copernicus.eu/datasets/satellite-sea-surface-temperature?tab=download)
 
 ## Features
 - **Model:** Two models of LSTM and Transformer are applied to extreme value analysis. For the extreme value analysis, three methods of data transformation, Frechet and Gumbel extreme distribution loss (Zhang et al.,2021) are applied to two models.  
